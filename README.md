@@ -29,21 +29,17 @@ or build it:
 ```docker build --tag="$USER/bubbleupnpserver" .```
 
 run your build:
-```docker run -d --name="your_container_name" --net=host -p 58050:58050 -p 58051:58051 $USER/docker-bubbleupnpserver:latest```
+```docker run -d --name=<your_container_name> --net=host $USER/docker-bubbleupnpserver:latest```
 
 # Quick Start
 
 Run the downloaded image (as a daemon):
 
-```docker run -d --name='your_container_name' --net=host -p 58050:58050 -p 58051:58051 tromatik/docker-bubbleupnpserver:latest```
+```docker run -d --name=<your_container_name> --net=host tromatik/docker-bubbleupnpserver:latest```
 
 # Test it
 
-http://host.ip:58050
-
-or
-
-https://host.ip:58051
+http://<host.ip>:58050 or https://<host.ip>:58051
 
 # Configuration
 
