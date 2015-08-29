@@ -18,7 +18,7 @@ BubbleUPnP Server provides new services, many of them running on top of your exi
 
 Pull the image from the docker registry e.g.
 
-```docker pull tromatik/bubbleupnpserver```
+```docker pull tromatik/docker-bubbleupnpserver```
 
 or build it:  
 
