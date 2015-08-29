@@ -29,13 +29,13 @@ or build it:
 ```docker build --tag="$USER/bubbleupnpserver" .```
 
 run your build:
-```docker run -d --name="your_container_name" --net=host -p 58050:58050 -p 58051:58051 $USER/bubbleupnpserver:latest```
+```docker run -d --name="your_container_name" --net=host -p 58050:58050 -p 58051:58051 $USER/docker-bubbleupnpserver:latest```
 
 # Quick Start
 
 Run the downloaded image (as a daemon):
 
-```docker run -d --name='your_container_name' --net=host -p 58050:58050 -p 58051:58051 tromatik/bubbleupnpserver:latest```
+```docker run -d --name='your_container_name' --net=host -p 58050:58050 -p 58051:58051 tromatik/docker-bubbleupnpserver:latest```
 
 # Test it
 
@@ -54,7 +54,7 @@ Configuration is available through bubbleupnpserer's web interface.
 
 For debugging and maintenance purposes you may want access the containers shell. Either add after the run command or tun e.g.
 
-```docker exec -it "$USER/bubbleupnpserver bash  ```
+```docker exec -it "$USER/docker-bubbleupnpserver" bash  ```
 
 or
 ```docker ps```
