@@ -1,3 +1,5 @@
+# docker-bubbleupnpserver
+
 # Introduction
 
 BubbleUPnP Server provides new services, many of them running on top of your existing UPnP/DLNA devices:
@@ -34,7 +36,7 @@ Run the downloaded image (as a daemon):
 
 ```docker run -d --name='your_container_name' --net=host -p 58050:58050 -p 58051:58051 tromatik/bubbleupnpserver:latest```
 
-# Test it 
+# Test it
 
 http://host.ip:58050
 
@@ -59,4 +61,4 @@ or
 
 # Autostart the container
 
-add the parameter --restart=always to your docker run command.# docker-bubbleupnpserver
+add the parameter --restart=always to your docker run command.
