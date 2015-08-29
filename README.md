@@ -3,6 +3,7 @@
 # Introduction
 
 BubbleUPnP Server provides new services, many of them running on top of your existing UPnP/DLNA devices:
+
 	- Make various media formats not natively supported by Chromecast playable with transcoding. Works in tandem with Android BubbleUPnP
 	- Secure Internet access to your UPnP/DLNA Media Servers content with Android BubbleUPnP and foobar2000.
 	- Stream and download your music, video, photos with your Android device from a mobile or WiFi connection with optional transcoding to reduce bandwidth.
